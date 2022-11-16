@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Form wave animation</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
+      <form action="get" class="form">
+        <div class="form__control">
+          <input type="email" class="form__email" />
+          <label class="form__label">Email</label>
+        </div>
 
-    <form action="get" class="form">
-        
-    <label class="form__label">Email</label>
-    <input type="email" class="form__email">
+        <div class="form__control">
+          <input type="password" class="form__password" />
+          <label class="form__label">Password</label>
+        </div>
 
-    <label class="form__label">Password</label>
-    <input type="password" class="form__password">
-
-    <button class="form__btn">Submit</button>
-    <p class="form__text">Don't have an account? <a href="#" class="form__link">Register</a></p>
-</form>
-
-</div>
+        <button class="form__btn">Submit</button>
+        <p class="form__text">
+          Don't have an account? <a href="#" class="form__link">Register</a>
+        </p>
+      </form>
+    </div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
